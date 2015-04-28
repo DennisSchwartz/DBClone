@@ -1,0 +1,44 @@
+body {
+	background-color: #D5D5D5;
+}
+
+.h1 {
+	color: red;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.list-group {
+	padding-top: 20px;
+}
+
+.list-group-item {
+	background-color: #EAF1F1;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+a.inline {
+    display:inline;
+}
